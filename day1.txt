@@ -76,7 +76,7 @@ fun BakeCake(message:String, from:String, Qty:Int) {
 -->function calling:
 fun main() {
     //function calling
-    BakeCake("Happy Birthday ciet","Edu skills",4)
+    BakeCake("Happy Birthday ciet","Eduskills",4)
 }
 
 
@@ -154,3 +154,31 @@ fun main() {
         println("not understood : $color")
     }
 }
+
+-->when statement:
+fun main() {
+    val color = "Orange"
+    when(color) {
+        "Green" -> println("Go")
+        "Yellow","Orange" -> println("Slow Down")
+        "Red" -> println("Stop")
+	else -> println("Not understood")
+    }
+}
+
+
+
+CLASSES:
+
+class Cake {
+    val num = 10
+}
+class Bake(val id:Int,val message:String) {
+    
+}
+
+fun main() {
+   val bake = Bake(10,"Happy Birthday")
+   println(bake.id)   
+}
+
