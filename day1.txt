@@ -1,0 +1,86 @@
+basics :-
+fun main() {
+    println("Hello, world!!!")
+    
+}
+fun main() {
+    println("1+2")
+}
+
+
+fun main() {
+    println(1+2)
+}
+
+
+DATA TYPES:-
+
+int size:any whole number
+float size:0000.0000 to +9999.9999
+double size:00000000.00000000
+string size:can be of any size
+boolean : 0 or 1
+
+
+
+VARIABLE DECLARATION,INITIALIZATION:
+val variable_name:datatype = value
+
+
+
+TYPES OF VARIABLES:
+1.val:similar to const
+2.var:dynamic
+
+Addition of two numbers:
+fun main() {
+    val num1:Int = 100
+    val num2:Int = 200
+    println(num1+num2)
+}
+Addition along with string concatenation with val :-
+we use $ symbol to specify the value corresponding to the variable in double codes.
+fun main() {
+    val num1:Int = 100
+    val num2:Int = 200
+    val sum:Int = num1+num2
+    print("$num1 added to $num2 sum is "+sum)
+}
+
+(or)
+
+fun main() {
+    val num1:Int = 100
+    val num2:Int = 200
+    print("$num1 added to $num2 sum is ${num1+num2}")
+}
+
+Addition along with string concatenation with val,inc,dec :-
+fun main() {
+    var num1:Int = 100
+    var num2:Int = 200
+    num1++
+    num2--
+    print("$num1 added to $num2 sum is ${num1+num2}")
+}
+
+
+
+FUNCTIONS:
+
+-->function definition:
+fun BakeCake(message:String, from:String, Qty:Int) {
+    println("The message is : $message\nFrom: $from\nQyt is: $Qty")
+}
+
+-->function calling:
+fun main() {
+    //function calling
+    BakeCake("Happy Birthday ciet","Edu skills",4)
+}
+
+
+RETURN TYPES:
+1.void:returns nothing
+2.String:returns string
+3.Int:returns integer
