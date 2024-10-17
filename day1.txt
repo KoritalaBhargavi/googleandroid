@@ -1,13 +1,10 @@
-basics :-
+BASIC PROGRAMS :-
 fun main() {
     println("Hello, world!!!")
-    
 }
 fun main() {
     println("1+2")
 }
-
-
 fun main() {
     println(1+2)
 }
@@ -15,11 +12,11 @@ fun main() {
 
 DATA TYPES:-
 
-int size:any whole number
-float size:0000.0000 to +9999.9999
-double size:00000000.00000000
-string size:can be of any size
-boolean : 0 or 1
+Int size:any whole number
+Float size:0000.0000 to +9999.9999
+Double size:00000000.00000000
+String size:can be of any size
+Boolean : 0 or 1
 
 
 
@@ -30,7 +27,8 @@ val variable_name:datatype = value
 
 TYPES OF VARIABLES:
 1.val:similar to const
-2.var:dynamic
+2.var:dynamical
+
 
 Addition of two numbers:
 fun main() {
@@ -94,7 +92,10 @@ fun type(str:String,d:Double,f:Float,i:Int):String{
     return("The string value is : "+str+"\nThe double value is: "+d+"\nThe Float value is: "+f+"\nThe int value is: "+i)
 }
 
+
+
 CONTROL STATEMENTS:
+
 -->if statement:
 fun main() {
     val color= "Blue"
@@ -167,7 +168,6 @@ fun main() {
 }
 
 
-
 CLASSES:
 
 class Cake {
@@ -181,4 +181,17 @@ fun main() {
    val bake = Bake(10,"Happy Birthday")
    println(bake.id)   
 }
+
+
+LAYOUTS:-
+1.COLUMN LAYOUT:
+The elements are arranged one below another in a vertical format it doesnot provide swipe UP and DOWN functionality.
+-->lazy column :
+The elements are arranged one below another in a vertical format it  provide swipe UP and DOWN functionality.
+2.ROW LAYOUT:
+The elements are arranged one below another in a vertical format it doesnot provide swipe LEFT and RIGHT functionality.
+-->lazy row:
+The elements are arranged one below another in a vertical format it provide LEFT and RIGHT functionality.
+3.BOX LAYOUT:
+The elements are STACKED one on the another.  
 
