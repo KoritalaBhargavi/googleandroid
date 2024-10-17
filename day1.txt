@@ -84,3 +84,73 @@ RETURN TYPES:
 1.void:returns nothing
 2.String:returns string
 3.Int:returns integer
+
+Task1:
+fun main() {
+    print(type("Bhargavi",233.45643466,993.532f,21))
+}
+
+fun type(str:String,d:Double,f:Float,i:Int):String{
+    return("The string value is : "+str+"\nThe double value is: "+d+"\nThe Float value is: "+f+"\nThe int value is: "+i)
+}
+
+CONTROL STATEMENTS:
+-->if statement:
+fun main() {
+    val color= "Blue"
+    if(color == "Blue") {
+        println("Go")
+    }
+}
+
+-->if else statement:-
+fun main() {
+    val color= "Blue"
+    if(color == "Green") {
+        println("Go")
+    }
+    else {
+        println("NOT Understood:$color")
+    }
+}
+
+-->else if statement:
+fun main() {
+    val color= "Red"
+    if(color == "Green") {
+        println("Go")
+    }
+    else if(color == "Yellow") {
+        println("Slow Down")
+    }
+    else if(color == "Red") {
+        println("Stop")
+    }
+    else{
+        println("not understood")
+    }
+}
+
+-->nested if-else statement:
+fun main() {
+    val color= "Red"
+    val color1="Light Red"
+    if(color == "Green") {
+        println("Go")
+    }
+    else if(color == "Yellow") {
+        println("Slow Down")
+    }
+    else if(color == "Red") {
+       // println("Stop")
+        if(color1 == "Light Red"){
+            println("Display not clear")
+        }
+        else {
+            println("Stop")
+        }
+    }
+    else{
+        println("not understood : $color")
+    }
+}
