@@ -1,0 +1,80 @@
+DAY 2 
+
+1.TEXT CONTAINER:-
+syntax:-
+Text(
+//body of the text
+text="your data"
+)
+
+2.IMAGE CONTAINER:-
+syntax:
+Image(
+ painter = painterResource(id = _image_id_)
+)
+
+Image ID:
+R.Drawable.(image name)
+
+Task :
+1.@composable
+fun hi(){
+Text(
+text="Hello Android!"
+)
+}
+
+2.@composable
+fun Greeting(name:String){
+	Text(
+		text="Hello $name!"
+	)
+}
+//function calling
+Greeting("Bhargavi")
+
+
+WHERE SHOULD THE FUNCTION BE CALLED?
+ANS:SetContent
+
+SYNTAX :
+//To Launch the App
+OnCreate() {
+	//To display the data/info 
+	SetContent(){
+		//function where display data is declared 
+		Greeting("Bhargavi")
+	}
+}
+
+@ preview 
+@Composable
+fun GreetingPreview() {
+	//body of the preview function
+	Greeting("pavani")
+}
+
+FINAL CODE STRUCTURE:-
+OnCreate() {
+	//To display the data/info 
+	SetContent(){
+		//function where display data is declared 
+		Greeting("Bhargavi")
+	}
+}
+@composable
+fun Greeting(name:String){
+	Text(
+		text="Hello $name!"
+	)
+}
+//function calling
+Greeting("Bhargavi")
+@ preview 
+@Composable
+fun GreetingPreview() {
+	//body of the preview function
+	Greeting("Bhargavi")
+}
+
+
