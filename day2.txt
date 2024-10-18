@@ -163,22 +163,27 @@ fun BirthdayCardPreview() {
 HOME TASK:
 Usage:
 
-dp: Used for defining layout dimensions such as width, height, margins, padding, etc.sp: Primarily used for defining text sizes.
+dp: Used for defining layout dimensions such as width, height, margins, padding, etc.
+sp: Primarily used for defining text sizes.
 
 Scaling Factor:
 
-dp: Scales based on the screen density (dpi), ensuring consistent sizing across different devices.sp: Scales based on both screen density and the user’s font size preference.
+dp: Scales based on the screen density (dpi), ensuring consistent sizing across different devices.
+sp: Scales based on both screen density and the user’s font size preference.
 
 Effect of Font Settings:
 
-dp: Not affected by the user’s font size settings.sp: Affected by the user’s font size settings (important for accessibility).
+dp: Not affected by the user’s font size settings.
+sp: Affected by the user’s font size settings (important for accessibility).
 
 When to Use:
 
-dp: For any UI element dimensions like view sizes, margins, and padding that should stay consistent across devices.sp: For text sizes to ensure readability and adapt to user preferences for larger or smaller fonts.
+dp: For any UI element dimensions like view sizes, margins, and padding that should stay consistent across devices.
+sp: For text sizes to ensure readability and adapt to user preferences for larger or smaller fonts.
 
 Example Use Case:
 
-dp: Defining view sizes, layout dimensions, margins, and padding.sp: Defining font sizes in UI components like TextView, buttons, etc.
+dp: Defining view sizes, layout dimensions, margins, and padding.
+sp: Defining font sizes in UI components like TextView, buttons, etc.
 
 
