@@ -1,0 +1,76 @@
+GREETING APP
+BASIC SYNTAX FORMAT
+// To Launch The App
+OnCreate() {
+	setContent() {
+		Greeting("Pavan")
+	}
+}
+
+@Composable
+fun Greeting(name:String) {
+	// body of the function 
+	
+	Text(
+		// body of Text
+		text = "Hello $name!"
+	)
+}
+@Preview
+@Composable
+fun GreetingPreview() {
+	Greeting("Pavan")
+}
+
+  
+
+Happy BIrthday App 
+BASIC SYNTAX FORMAT
+Rule: 1 Layout - 1 Function 
+onCreate(){
+	setContent() {
+		GreetingImage("Happy Birthday Pavan","From EduSkills")	
+	}
+} 
+@Composbale
+fun GreetingImage(message1:String, from1:String)  {
+	Box(
+		Image(
+			painter = painterResource(id = R.drawable.androidparty)
+		)
+		GreetingText(
+			message = message1,
+			from = from1
+		)
+	)
+}
+@Composable
+fun GreetingText(message:String, from:String) {
+	Column(
+		Text(text = message)
+		Text(text = from)
+	) 
+}
+@Preview
+@Composbale
+fun GreetingImagePreview() {
+	GreetingImage("Happy Birthday Pavan","From EduSkills")
+}
+
+
+Dice Roller App 
+Source Code: https://drive.google.com/drive/folders/1LGXxC7zG0i4U28uWyd9gix3aJOw_Iq_1?usp=drive_link
+Steps:
+1. Unzip the file
+2. Import it on to android studio
+3. Wait until Build successful message is displayed. 
+4. Prepare the APK fiela dn install the app in the phone.
+
+  
+  Tip Calculator App 
+Source Code: https://drive.google.com/drive/folders/1kzCo2YM1RHZrVAXs6OYnFh7RFGErApw4?usp=drive_link
+Steps:
+1. Downlaod the & Unzip the project file
+2. Import it on to android studio
+3. Wait until Build successful message is displayed. 
+4. Prepare the APK fiela dn install the app in the phone.
